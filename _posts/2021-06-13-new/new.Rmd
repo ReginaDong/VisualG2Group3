@@ -1,5 +1,5 @@
 ---
-title: "new"
+title: "ISSs608 Visual Analytics and Application Group Project Proposal"
 description: |
   A short description of the post.
 author:
