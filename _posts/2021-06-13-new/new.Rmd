@@ -1,9 +1,9 @@
 ---
-title: "ISSs608 Visual Analytics and Application Group Project Proposal"
+title: "ISSS608 Visual Analytics and Application Group Project Proposal"
 description: |
   A short description of the post.
 author:
-  - name: Nora Jones
+  - name: DONG Fang, YIN Xiaolan, ZHANG Youzhen
     url: https://example.com/norajones
 date: 06-13-2021
 output:
