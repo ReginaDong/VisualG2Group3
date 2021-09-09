@@ -1,0 +1,23 @@
+---
+title: "Project Poster"
+description: |
+  Poster of visualization and analysis for VAST Challenge 2021 Mini Challenge 2.
+author:
+  - name: DONG Fang, YIN Xiaolan, ZHANG Youzhen
+    url: https://isss608vaag2group3.netlify.app/
+    affiliation: School of Computing and Information Systems, Singapore Management University
+    affiliation_url: https://scis.smu.edu.sg/
+date: 08-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The project poster is designed and created using the Poster template of `posterdown` package. The link to the poster can be found [here](https://github.com/VisualG2G3/VisualG2Group3/blob/master/Deliverables/Poster/Poster.pdf).
+
+

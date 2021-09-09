@@ -1,0 +1,22 @@
+---
+title: "Practice Research Paper"
+description: |
+  The reseach paper of visualization and analysis on abnormal tracking and transactions.
+author:
+  - name: DONG Fang, YIN Xiaolan, ZHANG Youzhen
+    url: https://isss608vaag2group3.netlify.app/
+    affiliation: School of Computing and Information Systems, Singapore Management University
+    affiliation_url: https://scis.smu.edu.sg/
+date: 08-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The practice research paper is edited using the ACM article template of `rticle` package. The link to the paper can be found [here](https://github.com/VisualG2G3/VisualG2Group3/blob/master/Deliverables/ResearchPaper/ResearchPaper.pdf).
+

@@ -1,36 +1,104 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to VisualG2Group3",
-    "description": "Welcome to our new blog, VisualG2Group3. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-08-07-shinyapp/",
+    "title": "Interactive Shiny Application",
+    "description": "Link to Shiny application for exploring abnormal tracking and transactions of GASTech employees.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "DONG Fang, YIN Xiaolan, ZHANG Youzhen",
+        "url": "https://isss608vaag2group3.netlify.app/"
+      }
+    ],
+    "date": "2021-08-07",
+    "categories": [],
+    "contents": "\r\nThe Shiny application is designed and built using shiny and other related packages in R. The link to the Shiny Application can be found here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-09T20:30:21+08:00",
+    "input_file": "shinyapp.knit.md"
+  },
+  {
+    "path": "posts/2021-08-07-practiceresearchpaper/",
+    "title": "Practice Research Paper",
+    "description": "The reseach paper of visualization and analysis on abnormal tracking and transactions.",
+    "author": [
+      {
+        "name": "DONG Fang, YIN Xiaolan, ZHANG Youzhen",
+        "url": "https://isss608vaag2group3.netlify.app/"
+      }
+    ],
+    "date": "2021-08-07",
+    "categories": [],
+    "contents": "\r\nThe practice research paper is edited using the ACM article template of rticle package. The link to the paper can be found here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T18:33:12+08:00",
+    "input_file": "practiceresearchpaper.knit.md"
+  },
+  {
+    "path": "posts/2021-08-07-poster/",
+    "title": "Project Poster",
+    "description": "Poster of visualization and analysis for VAST Challenge 2021 Mini Challenge 2.",
+    "author": [
+      {
+        "name": "DONG Fang, YIN Xiaolan, ZHANG Youzhen",
+        "url": "https://isss608vaag2group3.netlify.app/"
+      }
+    ],
+    "date": "2021-08-07",
+    "categories": [],
+    "contents": "\r\nThe project poster is designed and created using the Poster template of posterdown package. The link to the poster can be found here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T19:07:21+08:00",
+    "input_file": "poster.knit.md"
+  },
+  {
+    "path": "posts/2021-08-04-user-guide/",
+    "title": "User Guide",
+    "description": "Step-by-step guide on how to use the data visualisation function designed",
+    "author": [
+      {
+        "name": "DONG Fang, YIN Xiaolan, ZHANG Youzhen",
+        "url": "https://isss608vaag2group3.netlify.app/"
+      }
+    ],
+    "date": "2021-08-04",
+    "categories": [],
+    "contents": "\r\n\r\nContents\r\n1. Landing Page\r\n2. EDA\r\n3. GPS\r\n4. Owner Matching\r\n5. Data\r\n\r\nGuidance on how to use the Shiny App for exploring abnormal trajectories and transactions of GAStech employees\r\n1. Landing Page\r\nThe landing page of the application provides a brief background, features and skeleton overview for this application.\r\n\r\nFig.1 Landing page of Shiny App\r\n\r\n2. EDA\r\nThis panel is designed to do exploratory data analysis on credit card and loyalty card transaction data.\r\n\r\nFig.2 The panel for EDA\r\n\r\n[1] Switch the heatmap to show credit card or loyalty card in chart A.  [2] Select one or multiple credit/loyalty card number to transactions of specific cards for chart A, B and C.  [3] Select all weekday/weekend or particular dates to filter transactions in specific days for chart A, B, C.\r\n\r\nFig.3 Hover over on charts to see the tooltip\r\n\r\n[4] Hover cursor over plot area to see the tooltip with location, date/hour and transaction count for chart A/chart B, see the tooltip with maximum, minimum, mean, median and quartile transaction price for chart C.\r\n\r\nFig.4 Zoom in and out on boxplot\r\n\r\n[5] Drag and drop on plot area to zoom in on chart C and see details clearly of boxes. Double-click on plot area to restore the default scale of the plotting.\r\n3. GPS\r\nThis panel is designed to visualize the GPS tracking data. Two sub-tabs constitute this panel.\r\nIn the first sub-tab:\r\n\r\nFig.5 The first sub-tab of the panel for GPS\r\n\r\n[6] Select particular car ID and date(s) to show GPS movement path for selected car in selected date(s) in chart D and E.  [7] The table shows which timeslot each color represents in chart E, and the layer names of the respective timeslots.  [8] This buttons are used to zoom in our zoom out the map for displaying more details.\r\n\r\nFig.6 Legend and tooltip of chart D\r\n\r\n[9] The legend of chart D shows which day each color represents.  [10] Click on the movement line to see the tooltip indicating on which day this action occurred in January.\r\n\r\nFig.7 The layers of timeslot in chart E\r\n\r\n[11] Hover the cursor over the layer logo on the upper-left corner to see the layers of Chart E. Check or uncheck particular layers by clicking to see the movement of specific timeslots in selected day.\r\n*Tips: In order to better analysis the movement path, highly recommend to select one car ID to overview all movement lines, then further select one date to observe actions in different timeslots of a day.\r\nIn the second tab:\r\n\r\nFig.8 The second sub-tab of the panel for GPS\r\n\r\n[12] Check or uncheck weekday or weekend to filter GPS track data in weekday or weekend only for chart F.\r\n\r\nFig.9 Tooltip in chart F\r\n\r\n[13] Hover cursor over plot area of chart F to see the tooltip with car ID, hour and record count of each car in one hour.\r\n*Note: As the Memory limitation of free Shiny App server, after deploying, the Shiny APP can’t afford displaying GPS movement lines for all cars. Thus we filtered GPS tracking data and retained several typical car IDs data to generate the key movement lines for further exploration and analysis.\r\n4. Owner Matching\r\nThis panel is used to show the relationship between particular car owner and credit/loyalty card holder.\r\n\r\nFig.10 The panel for Owner Matching\r\n\r\n[14] Click on the arrow icons next to column title to sort the table A by corresponding column; click the input boxes below the column title, type in searching criteria or select target option to filter the data table. Regular expression can be applied in searching criteria.  [15] Click the row in table A to see specific heatmap (chart G) and line chart (chart H) for selected employee(s) on the right side.  [16] Switch the heatmap to show credit card or loyalty card in chart H.\r\n*Note: As stated in section 3, only GPS tracking data of the retained car IDs can be used to build Chart G.\r\n\r\nFig.11 Hover over on charts to see the tooltip \r\n\r\n[17] Hover cursor over plot area of chart G to see the tooltip with hour, date and record count of selected car in one hour of a day; hover over point on chart H to see the tooltip with the transaction datatime and price in specific location.\r\n\r\nFig.12 Hover over on charts to see the tooltip \r\n\r\n[18] Drag and drop on plot area to zoom in on chart H and see details clearly of points. Double-click on plot area to restore the default scale of the plotting.\r\n5. Data\r\nThis panel is used to retieve the details of individual transaction record.\r\n\r\nFig.13 The panel for Owner Matching\r\n\r\n[19] Click on the arrow icons next to column title to sort the table B by corresponding column.  [20] Click the input boxes below the column title, type in searching criteria or select target option to filter table B. Regular expression can be applied in searching criteria.  [21] Click the “Previous” button to shift to the previous page of table B; click “Next” button to shift to the next page; click the page number to jump into the selected page.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T19:58:33+08:00",
+    "input_file": "user-guide.knit.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to G2Group3 project",
+    "description": "Welcome to our new blog, for VAA_G2_Group3 project. We hope you enjoy reading what we have to say!",
+    "author": [
+      {
+        "name": "DONG Fang, YIN Xiaolan, ZHANG Youzhen",
+        "url": "https://isss608vaag2group3.netlify.app/"
       }
     ],
     "date": "2021-06-13",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-06-13T14:22:42+08:00",
+    "last_modified": "2021-06-20T21:26:26+08:00",
     "input_file": {}
   },
   {
-    "path": "posts/2021-06-13-new/",
-    "title": "ISSS608 Visual Analytics and Application Group Project Proposal",
-    "description": "A short description of the post.",
+    "path": "posts/2021-06-13-proposal/",
+    "title": "Interactive Visualization for Exploring Abnormal Tracking and Transaction of GAStech Employee",
+    "description": "Project Proposal of VAST Challenge 2021 Mini Challenge 2.",
     "author": [
       {
         "name": "DONG Fang, YIN Xiaolan, ZHANG Youzhen",
-        "url": "https://example.com/norajones"
+        "url": "https://isss608vaag2group3.netlify.app/"
       }
     ],
     "date": "2021-06-13",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\nContents\r\n1. Background\r\n2. Motivation\r\n3. Project objectives\r\n4. Proposed Scope and Methodology\r\n5. Project Timeline\r\n6. Storyboard & Visualization Features\r\n7. Software Tools\r\n8. Proposed R Packages\r\n\r\n1. Background\r\nThe IEEE Visual Analytics Science and Technology (VAST) Challenge is an annual contest with the goal of advancing the field of visual analytics through competition. The VAST Challenge is designed to help researchers understand how their software would be used in a novel analytic task and determine if their data transformations, visualizations, and interactions would be beneficial for particular analytic tasks. VAST Challenge 2021 is the so-called Kronos Incident in which several employees of a company named GAStech, located at the island of Kronos went missing. Mini-Challenge 2 aims to find unusual and suspicious behaviors of employees then to make contributions on investigation of the incident.\r\n2. Motivation\r\nThe task of Mini Challenge 2 is to explore anomalies and get meaningful insights to make recommendations for further investigation of the incident. The dataset used here combines geospatial data with aspatial information that allows us to apply geospatial regression techniques and geospatial clustering to understand nutrition and obesity at different geographic granularity.\r\nThe missing, conflicting, and imperfect data gives us chances to use exploratory data analysis techniques to discover patterns, spot anomalies, and check assumptions. We will attempt to link the geographic movement data and consumption data of employees’ credit card purchases and preferences together to provide actionable insights to the analysis.\r\n3. Project objectives\r\nThis project aims to deliver an R-Shiny application that provides:\r\nInteractive user interface design\r\nNutritional information interfaced with a visual chart representation\r\nClustering techniques through both aspatial and geospatial methods\r\nMeaningful and valid insights based on the dataset used\r\n4. Proposed Scope and Methodology\r\nAnalysis of Kronos Incident dataset with background research\r\nExploratory Data Analysis (EDA) methods in R\r\nExploratory Spatial Data Analysis (ESDA) methods in R\r\nClustering methods for aspatial and geospatial information in R\r\nR Markdown development for functionality checks\r\nR-Shiny app development for user interactivity\r\n5. Project Timeline\r\nFig. 1 The project timeline planned\r\n6. Storyboard & Visualization Features\r\nWe plan to design 5 tabs in the R shiny project.\r\ntab1: Introduction\r\nWe will include the introduction of the R Shiny project in this tab, briefly describe the content of the following 4 tabs.\r\ntab2: EDA\r\nThis tab includes the heatmap and boxplot for transaction data for credit card and loyalty card.\r\n\r\ntab3: GPS\r\nThis tab includes the two gps tmap and one overview heatmap.\r\n\r\n\r\ntab4: Owner Matching\r\nThis tab shows the owner matching result, the corresponding heatmap and line chart will appear when you click the row(S).\r\n\r\ntab5: Data\r\nThis tab presents the matched transaction data, one record will includes at least the car id, credit card number, time stamp (credit card), price (credit card), loyalty card number, time stamp (loyalty card), price (loyalty card).\r\n7. Software Tools\r\nGit hub: https://github.com/VisualG2G3/VisualG2Group3\r\nRStudio: https://rstudio.com/\r\n8. Proposed R Packages\r\nClustGeo: https://cran.r-project.org/web/packages/ClustGeo\r\nRColorBrewer: https://cran.r-project.org/web/packages/RColorBrewer\r\nshiny: https://shiny.rstudio.com\r\nshinythemes: https://cran.r-project.org/web/packages/shinythemes\r\nshinyWidgets: https://cran.r-project.org/web/packages/shinyWidgets\r\ntidyverse: https://www.tidyverse.org\r\ntmap: https://cran.r-project.org/web/packages/tmap\r\nsp: https://cran.r-project.org/web/packages/sp\r\nleaflet: https://cran.r-project.org/web/packages/leaflet\r\nplotly: https://cran.r-project.org/web/packages/plotly\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-06-13T15:22:33+08:00",
-    "input_file": "new.knit.md"
+    "last_modified": "2021-08-15T18:58:53+08:00",
+    "input_file": "proposal.knit.md"
   }
 ]
